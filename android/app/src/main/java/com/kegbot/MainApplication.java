@@ -1,4 +1,4 @@
-package com.strangeluvnative;
+package com.kegbot;
 
 import android.app.Application;
 import android.util.Log;

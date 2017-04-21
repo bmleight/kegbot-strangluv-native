@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "strangeluvnative.app"
-               BlueprintName = "strangeluvnative"
-               ReferencedContainer = "container:strangeluvnative.xcodeproj">
+               BuildableName = "kegbot.app"
+               BlueprintName = "kegbot"
+               ReferencedContainer = "container:kegbot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "strangeluvnativeTests.xctest"
-               BlueprintName = "strangeluvnativeTests"
-               ReferencedContainer = "container:strangeluvnative.xcodeproj">
+               BuildableName = "kegbotTests.xctest"
+               BlueprintName = "kegbotTests"
+               ReferencedContainer = "container:kegbot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "strangeluvnativeTests.xctest"
-               BlueprintName = "strangeluvnativeTests"
-               ReferencedContainer = "container:strangeluvnative.xcodeproj">
+               BuildableName = "kegbotTests.xctest"
+               BlueprintName = "kegbotTests"
+               ReferencedContainer = "container:kegbot.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "strangeluvnative.app"
-            BlueprintName = "strangeluvnative"
-            ReferencedContainer = "container:strangeluvnative.xcodeproj">
+            BuildableName = "kegbot.app"
+            BlueprintName = "kegbot"
+            ReferencedContainer = "container:kegbot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "strangeluvnative.app"
-            BlueprintName = "strangeluvnative"
-            ReferencedContainer = "container:strangeluvnative.xcodeproj">
+            BuildableName = "kegbot.app"
+            BlueprintName = "kegbot"
+            ReferencedContainer = "container:kegbot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -120,9 +120,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "strangeluvnative.app"
-            BlueprintName = "strangeluvnative"
-            ReferencedContainer = "container:strangeluvnative.xcodeproj">
+            BuildableName = "kegbot.app"
+            BlueprintName = "kegbot"
+            ReferencedContainer = "container:kegbot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

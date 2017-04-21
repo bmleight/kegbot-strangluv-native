@@ -3,14 +3,14 @@
   "plugins": [
     ["module-resolver", {
       "alias": {
-        "components": "strangeluvnative/src/components",
-        "containers": "strangeluvnative/src/containers",
-        "reducers": "strangeluvnative/src/reducers",
-        "images": "strangeluvnative/src/images",
-        "actions": "strangeluvnative/src/actions",
-        "action-types": "strangeluvnative/src/action-types",
-        "static": "strangeluvnative/src/static",
-        "wiring": "strangeluvnative/src/wiring"
+        "components": "kegbot/src/components",
+        "containers": "kegbot/src/containers",
+        "reducers": "kegbot/src/reducers",
+        "images": "kegbot/src/images",
+        "actions": "kegbot/src/actions",
+        "action-types": "kegbot/src/action-types",
+        "static": "kegbot/src/static",
+        "wiring": "kegbot/src/wiring"
       }
     }]
   ]

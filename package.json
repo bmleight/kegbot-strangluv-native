@@ -1,5 +1,5 @@
 {
-  "name": "strangeluvnative",
+  "name": "kegbot",
   "version": "0.0.1",
   "scripts": {
     "start": "react-native start",
