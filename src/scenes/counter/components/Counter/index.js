@@ -1,7 +1,15 @@
 const React = require('react');
 const { View, Text, Button } = require('react-native');
 
+const Icon = require('react-native-vector-icons/MaterialIcons').default;
+
 class Counter extends React.Component{
+
+    static navigationOptions = {
+        tabBar: {
+            icon: () => (<Icon size={24} color='white' name='add' />)
+        }
+    }
 
     render() {
 

@@ -1,7 +1,7 @@
 const React = require('react');
 const Reducers = require('../wiring/reducers');
 const Connect = require('react-redux').connect;
-const { StackNavigator, addNavigationHelpers } = require('react-navigation');
+const { TabNavigator, addNavigationHelpers } = require('react-navigation');
 const internals = {};
 
 internals.connect = Connect(
@@ -14,17 +14,17 @@ module.exports = (store) => {
 
     const Scenes = require('../scenes')(store);
 
-    // https://reactnavigation.org/docs/navigators/stack#RouteConfigs
-    // https://reactnavigation.org/docs/navigators/stack#StackNavigatorConfig
+    // https://reactnavigation.org/docs/navigators/tab#RouteConfigs
+    // https://reactnavigation.org/docs/navigators/tab#TabNavigatorConfig
 
-    // If you don't want a StackNavigator as your root navigator like you
+    // If you don't want a TabNavigator as your root navigator like you
     // see below, change it here and in '../scenes'.
     // Make sure ../scenes exports a correct
     // config for your root stack:
 
-    // Scenes returns [ routeConfig, stackNavigatorConfig ]
+    // Scenes returns [ routeConfig, tabNavigatorConfig ]
 
-    const AppStackNavigator = StackNavigator(...Scenes);
+    const AppTabNavigator = TabNavigator(...Scenes);
 
     class AppNavigator extends React.Component {
 
@@ -33,7 +33,7 @@ module.exports = (store) => {
             const { dispatch, nav } = this.props;
 
             return (
-                <AppStackNavigator
+                <AppTabNavigator
                     navigation={
                         addNavigationHelpers({
                             dispatch,
@@ -50,7 +50,7 @@ module.exports = (store) => {
         nav: React.PropTypes.any.isRequired
     };
 
-    const appNavReducer = require('../reducers/nav')(AppStackNavigator);
+    const appNavReducer = require('../reducers/nav')(AppTabNavigator);
 
     Reducers.inject(store, { key: 'nav', reducer: appNavReducer });
 
