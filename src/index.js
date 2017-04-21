@@ -35,5 +35,5 @@ module.exports = (platform) => {
 
     // register with the AppRegistery and :rocket: into space!
 
-    AppRegistry.registerComponent('strangeluvnative', () => appContainer);
+    AppRegistry.registerComponent('kegbot', () => appContainer);
 };
