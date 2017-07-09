@@ -4,7 +4,7 @@ const styles = require('./styles');
 
 const Icon = require('react-native-vector-icons/MaterialIcons').default;
 
-class GameView extends React.Component {
+class GameListView extends React.Component {
 
     static navigationOptions = {
         tabBar: {
@@ -26,7 +26,10 @@ class GameView extends React.Component {
 
         return (
             <View style={styles.container}>
-                <Text style={styles.title}>Picture Search</Text>
+                <Text style={styles.title}>Select a game</Text>
+                <View style={styles.gameContainer}>
+                    
+                </View>
                 <Text style={styles.subTitle}>Can you find the differences in the photos???????</Text>
                 <Button
                   onPress={this.onPressStart}
@@ -39,4 +42,4 @@ class GameView extends React.Component {
     }
 }
 
-module.exports = GameView;
+module.exports = GameListView;

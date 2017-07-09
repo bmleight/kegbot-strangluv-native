@@ -1,6 +1,6 @@
 module.exports = {
 
-    screen: require('./components/GameView'),
+    screen: require('./components/GameListView'),
     path: 'games',
     navigationOptions: {
         title: 'Games'
