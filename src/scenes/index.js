@@ -1,19 +1,21 @@
 const React = require('react');
-const Counter = require('./counter');
-const Home = require('./home');
+const beer = require('./beer');
+const games = require('./games');
+const drive = require('./drive');
 const { NavigationComponent } = require('react-native-material-bottom-navigation');
 
 module.exports = (store) => {
 
     return [
         {
-            Home,
-            Counter
+            beer,
+            games,
+            drive
         },
         {
             // Main app navigation config
             // https://reactnavigation.org/docs/navigators/stack#StackNavigatorConfig
-            initialRouteName: 'Home',
+            initialRouteName: 'beer',
             tabBarComponent: NavigationComponent,
             tabBarPosition: 'bottom',
             tabBarOptions: {
@@ -21,11 +23,14 @@ module.exports = (store) => {
                     labelColor: 'white',
                     rippleColor: 'white',
                     tabs: {
-                        Home: {
+                        beer: {
                             barBackgroundColor: '#37474F'
                         },
-                        Counter: {
-                            barBackgroundColor: '#e6158d'
+                        games: {
+                            barBackgroundColor: '#37474F'
+                        },
+                        drive: {
+                            barBackgroundColor: '#37474F'
                         }
                     }
                 }
